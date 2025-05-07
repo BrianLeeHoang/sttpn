@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #222;
+  color: white;
+}
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.buttons button {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+.newsletter {
+  background-color: #007BFF;
+  color: white;
+}
+.donate {
+  background-color: #28A745;
+  color: white;
+}
